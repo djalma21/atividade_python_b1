@@ -1,6 +1,6 @@
-l1=int(input("informe o lado do triangulo: "))
-l2=int(input("informe o lado do triangulo: "))
-l3=int(input("informe o lado do triangulo: "))
+l1=int(input("informe o lado do trinagulo: "))
+l2=int(input("informe o lado do trinagulo: "))
+l3=int(input("informe o lado do trinagulo: "))
 
 if l1+l2<l3:
     print("essas medidas não forma um triangulo")
