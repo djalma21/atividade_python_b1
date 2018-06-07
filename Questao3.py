@@ -17,13 +17,11 @@ R5=input("ja trabalhou com a vitima? ")
 if R5== "sim":
     resp_sim =resp_sim+1
 
-if resp_sim==1:
+if resp_sim<=1:
     print("Você é inocente")
 if resp_sim==2:
     print("Você é suspeito")
-
 if resp_sim==3 or resp_sim==4:
     print("Você e cumplice")
-
 if resp_sim==5:
     print("Você é o assassino")
