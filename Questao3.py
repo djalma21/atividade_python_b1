@@ -10,7 +10,7 @@ if R2== "sim":
 R3=input("mora perto da vitima? ")
 if R3== "sim":
     resp_sim =resp_sim+1
-R4=input(" devia para vitima? ")
+R4=input(" devia para a vitima? ")
 if R4== "sim":
     resp_sim =resp_sim+1
 R5=input("ja trabalhou com a vitima? ")
