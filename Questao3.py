@@ -1,20 +1,20 @@
 resp_sim=0
 
 
-R1=input("telefonou para a vitima? ")
-if R1== "sim":
+r1=input("telefonou para a vitima? ")
+if r1== "sim":
     resp_sim =resp_sim+1
-R2=input("esteve no local do crime? ")
-if R2== "sim":
+r2=input("esteve no local do crime? ")
+if r2== "sim":
     resp_sim =resp_sim+1
-R3=input("mora perto da vitima? ")
-if R3== "sim":
+r3=input("mora perto da vitima? ")
+if r3== "sim":
     resp_sim =resp_sim+1
-R4=input(" devia para a vitima? ")
-if R4== "sim":
+r4=input(" devia para a vitima? ")
+if r4== "sim":
     resp_sim =resp_sim+1
-R5=input("ja trabalhou com a vitima? ")
-if R5== "sim":
+r5=input("ja trabalhou com a vitima? ")
+if r5== "sim":
     resp_sim =resp_sim+1
 
 if resp_sim<=1:
